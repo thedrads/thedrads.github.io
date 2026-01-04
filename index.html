@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fábio Andrade - Gestão Financeira e Análise de Dados. Profissional em transição para tecnologia, combinando 20 anos de experiência em gestão com Data Science e Cloud Computing."
+    />
+    <meta name="author" content="Fábio Andrade" />
+    <meta
+      name="keywords"
+      content="Fábio Andrade, Gestão Financeira, Análise de Dados, Data Science, Python, AWS, Power BI, Portfólio"
+    />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Fábio Andrade | Gestão & Dados" />
+    <meta
+      property="og:description"
+      content="Gestão Financeira + Análise de Dados para decisões melhores"
+    />
+    <meta property="og:image" content="assets/social-preview.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Fábio Andrade | Gestão Financeira & Análise de Dados</title>
+  </head>
+
+  <body>
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+      <div class="container header__container">
+        <a href="index.html" class="header__logo">Fábio Andrade</a>
+        <nav class="header__nav" aria-label="Navegação principal">
+          <ul class="header__menu">
+            <li><a href="#sobre" class="header__link">Sobre</a></li>
+            <li><a href="#habilidades" class="header__link">Habilidades</a></li>
+            <li><a href="#projetos" class="header__link">Projetos</a></li>
+            <li><a href="#certificacoes" class="header__link">Certificações</a></li>
+            <li><a href="#formacao" class="header__link">Formação</a></li>
+          </ul>
+        </nav>
+        <button class="header__mobile-btn" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ========== HERO SECTION ========== -->
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__content">
+            <p class="hero__greeting">Olá, eu sou</p>
+            <h1 class="hero__title">Fábio Andrade</h1>
+            <p class="hero__subtitle">
+              Gestão Financeira <span class="highlight">+</span> Análise de Dados
+            </p>
+            <p class="hero__description">
+              Profissional com 20 anos em gestão financeira e operacional, em transição 
+              estruturada para tecnologia. Combinando experiência em processos, indicadores 
+              e tomada de decisão com Data Science e Cloud Computing.
+            </p>
+            <div class="hero__buttons">
+              <a
+                href="https://www.linkedin.com/in/fabioandradegf/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn--primary"
+              >
+                <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                Ver Perfil no LinkedIn
+              </a>
+              <a href="assets/CV_Fabio_Andrade.pdf" download class="btn btn--secondary">
+                <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                </svg>
+                Baixar CV (PDF)
+              </a>
+            </div>
+            <div class="hero__social">
+              <a
+                href="https://github.com/thedrads"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hero__social-link"
+                aria-label="GitHub"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="hero__image-wrapper">
+            <img
+              src="assets/foto_perfil.png"
+              alt="Foto de Fábio Andrade - Profissional de camisa preta em ambiente corporativo"
+              class="hero__image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== SOBRE ========== -->
+      <section id="sobre" class="section sobre">
+        <div class="container">
+          <h2 class="section__title">Sobre Mim</h2>
+          <div class="sobre__content">
+            <div class="sobre__text">
+              <p>
+                Passei quase <strong>20 anos como gestor de empresas</strong>, atuando na 
+                sustentação financeira e operacional de negócios reais. Sempre estive no 
+                papel de organizar a casa: transformar rotina em processo, processo em 
+                indicador e indicador em decisão.
+              </p>
+              <p>
+                Atualmente sou responsável pela <strong>gestão financeira e operacional de 
+                um consultório veterinário</strong>, liderando uma transformação orientada 
+                a dados, eficiência operacional e uso de tecnologia. Estruturei processos, 
+                implementei sistemas de gestão (ERP), defini KPIs financeiros e operacionais 
+                e passei a apoiar decisões com dados claros e mensuráveis.
+              </p>
+              <p>
+                Estou em <strong>transição estruturada para tecnologia</strong>, apoiada por 
+                formação em Gestão Financeira, MBA em IA e Análise de Dados aplicada a 
+                negócios, e programas práticos em Cloud e Data Science. Busco atuar em 
+                projetos onde gestão, dados, IA e tecnologia se conectem para gerar 
+                impacto real e decisões melhores.
+              </p>
+            </div>
+            <div class="sobre__highlights">
+              <div class="highlight-card">
+                <span class="highlight-card__number">20</span>
+                <span class="highlight-card__label">Anos em Gestão</span>
+              </div>
+              <div class="highlight-card">
+                <span class="highlight-card__number">40%</span>
+                <span class="highlight-card__label">Redução de OPEX</span>
+              </div>
+              <div class="highlight-card">
+                <span class="highlight-card__number">35%</span>
+                <span class="highlight-card__label">Crescimento de Receita</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== HABILIDADES ========== -->
+      <section id="habilidades" class="section habilidades">
+        <div class="container">
+          <h2 class="section__title">Habilidades</h2>
+          <p class="section__subtitle">
+            Combinando experiência em gestão com novas competências técnicas em desenvolvimento
+          </p>
+
+          <div class="habilidades__grid">
+            <!-- Gestão & Negócios -->
+            <div class="skill-category">
+              <h3 class="skill-category__title">
+                <span class="skill-category__icon">💼</span>
+                Gestão & Negócios
+              </h3>
+              <ul class="skill-list">
+                <li class="skill-item skill-item--advanced">
+                  <span class="skill-item__name">Gestão Financeira</span>
+                  <span class="skill-item__level">Avançado</span>
+                </li>
+                <li class="skill-item skill-item--advanced">
+                  <span class="skill-item__name">Indicadores (KPIs)</span>
+                  <span class="skill-item__level">Avançado</span>
+                </li>
+                <li class="skill-item skill-item--advanced">
+                  <span class="skill-item__name">Processos & Eficiência</span>
+                  <span class="skill-item__level">Avançado</span>
+                </li>
+                <li class="skill-item skill-item--intermediate">
+                  <span class="skill-item__name">Planejamento Estratégico</span>
+                  <span class="skill-item__level">Intermediário</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Dados & Analytics -->
+            <div class="skill-category">
+              <h3 class="skill-category__title">
+                <span class="skill-category__icon">📊</span>
+                Dados & Analytics
+              </h3>
+              <ul class="skill-list">
+                <li class="skill-item skill-item--basic">
+                  <span class="skill-item__name">Python</span>
+                  <span class="skill-item__level">Básico</span>
+                </li>
+                <li class="skill-item skill-item--basic">
+                  <span class="skill-item__name">Pandas</span>
+                  <span class="skill-item__level">Básico</span>
+                </li>
+                <li class="skill-item skill-item--basic">
+                  <span class="skill-item__name">Power BI</span>
+                  <span class="skill-item__level">Básico</span>
+                </li>
+                <li class="skill-item skill-item--intermediate">
+                  <span class="skill-item__name">Excel / Sheets</span>
+                  <span class="skill-item__level">Intermediário</span>
+                </li>
+                <li class="skill-item skill-item--learning">
+                  <span class="skill-item__name">SQL</span>
+                  <span class="skill-item__level">Aprendendo</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Cloud & Tecnologia -->
+            <div class="skill-category">
+              <h3 class="skill-category__title">
+                <span class="skill-category__icon">☁️</span>
+                Cloud & Tecnologia
+              </h3>
+              <ul class="skill-list">
+                <li class="skill-item skill-item--basic">
+                  <span class="skill-item__name">AWS (EC2, S3, IAM)</span>
+                  <span class="skill-item__level">Básico</span>
+                </li>
+                <li class="skill-item skill-item--basic">
+                  <span class="skill-item__name">Cloud Computing</span>
+                  <span class="skill-item__level">Básico</span>
+                </li>
+                <li class="skill-item skill-item--learning">
+                  <span class="skill-item__name">ETL</span>
+                  <span class="skill-item__level">Conceitual</span>
+                </li>
+                <li class="skill-item skill-item--basic">
+                  <span class="skill-item__name">Git & GitHub</span>
+                  <span class="skill-item__level">Básico</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="habilidades__note">
+            <em>
+              💡 Estou em constante aprendizado. Os níveis refletem minha autoavaliação 
+              honesta — valorizo transparência sobre onde estou e para onde vou.
+            </em>
+          </p>
+        </div>
+      </section>
+
+      <!-- ========== PROJETOS ========== -->
+      <section id="projetos" class="section projetos">
+        <div class="container">
+          <h2 class="section__title">Projetos</h2>
+          <p class="section__subtitle">
+            Projetos práticos desenvolvidos durante minha formação em Data Science
+          </p>
+
+          <div class="projetos__grid">
+            <!-- Projeto 1: TelecomX -->
+            <article class="projeto-card">
+              <div class="projeto-card__header">
+                <span class="projeto-card__tag">Data Science</span>
+                <span class="projeto-card__date">Nov/2025 • Atualizado Jan/2026</span>
+              </div>
+              <h3 class="projeto-card__title">Análise de Churn — TelecomX</h3>
+              <p class="projeto-card__description">
+                Análise de evasão de clientes de uma empresa de telecomunicações. 
+                Identifiquei que clientes com contrato mensal têm 42% de churn vs 3% 
+                em contratos de 2 anos, gerando insights para estratégias de retenção.
+              </p>
+              <ul class="projeto-card__tech">
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+                <li>Seaborn</li>
+              </ul>
+              <div class="projeto-card__results">
+                <span>📊 7.043 clientes</span>
+                <span>📈 26,54% churn</span>
+                <span>💰 US$ 2,86M perda estimada</span>
+              </div>
+              <div class="projeto-card__links">
+                <a
+                  href="https://github.com/thedrads/telecomx-churn-analysis"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="projeto-card__link"
+                >
+                  Ver no GitHub →
+                </a>
+              </div>
+            </article>
+
+            <!-- Projeto 2: Alura Store -->
+            <article class="projeto-card">
+              <div class="projeto-card__header">
+                <span class="projeto-card__tag">Análise de Dados</span>
+                <span class="projeto-card__date">Nov/2025 • Atualizado Jan/2026</span>
+              </div>
+              <h3 class="projeto-card__title">Análise de Desempenho — Alura Store</h3>
+              <p class="projeto-card__description">
+                Análise comparativa de 4 lojas de e-commerce para identificar qual 
+                possui pior desempenho. Recomendação baseada em faturamento, avaliações, 
+                mix de produtos e custos de frete.
+              </p>
+              <ul class="projeto-card__tech">
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+                <li>Google Colab</li>
+              </ul>
+              <div class="projeto-card__results">
+                <span>🏪 4 lojas</span>
+                <span>📦 9.435 transações</span>
+                <span>💡 Recomendação de venda</span>
+              </div>
+              <div class="projeto-card__links">
+                <a
+                  href="https://github.com/thedrads/alura-store-latam-ds-challenge"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="projeto-card__link"
+                >
+                  Ver no GitHub →
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div class="projetos__cta">
+            <a
+              href="https://github.com/thedrads?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn--outline"
+            >
+              Ver Todos os Repositórios no GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== CERTIFICAÇÕES ========== -->
+      <section id="certificacoes" class="section certificacoes">
+        <div class="container">
+          <h2 class="section__title">Certificações</h2>
+
+          <div class="certificacoes__grid">
+            <div class="cert-card">
+              <img
+                src="assets/oracle-badge.png"
+                alt="Oracle Badge"
+                class="cert-card__badge"
+                onerror="this.style.display='none'"
+              />
+              <div class="cert-card__content">
+                <h3 class="cert-card__title">Oracle Cloud Infrastructure 2025</h3>
+                <p class="cert-card__subtitle">Certified AI Foundations Associate</p>
+                <p class="cert-card__issuer">Oracle • Out/2025</p>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <img
+                src="assets/oracle-badge.png"
+                alt="Oracle Badge"
+                class="cert-card__badge"
+                onerror="this.style.display='none'"
+              />
+              <div class="cert-card__content">
+                <h3 class="cert-card__title">Oracle Cloud Infrastructure 2025</h3>
+                <p class="cert-card__subtitle">Certified Foundations Associate</p>
+                <p class="cert-card__issuer">Oracle • Out/2025</p>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <img
+                src="assets/cornell-badge.png"
+                alt="Cornell Badge"
+                class="cert-card__badge"
+                onerror="this.style.display='none'"
+              />
+              <div class="cert-card__content">
+                <h3 class="cert-card__title">Generative AI for Productivity</h3>
+                <p class="cert-card__subtitle">Programa Executivo</p>
+                <p class="cert-card__issuer">Cornell University • Dez/2025</p>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <img
+                src="assets/fgv-badge.png"
+                alt="FGV Badge"
+                class="cert-card__badge"
+                onerror="this.style.display='none'"
+              />
+              <div class="cert-card__content">
+                <h3 class="cert-card__title">IA Aplicada aos Negócios</h3>
+                <p class="cert-card__subtitle">Certificação Profissional</p>
+                <p class="cert-card__issuer">Fundação Getulio Vargas • Fev/2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== FORMAÇÃO ========== -->
+      <section id="formacao" class="section formacao">
+        <div class="container">
+          <h2 class="section__title">Formação Acadêmica</h2>
+
+          <div class="formacao__timeline">
+            <div class="formacao-item formacao-item--current">
+              <div class="formacao-item__marker"></div>
+              <div class="formacao-item__content">
+                <span class="formacao-item__status">Em andamento</span>
+                <h3 class="formacao-item__title">MBA em IA & Análise de Dados</h3>
+                <p class="formacao-item__institution">SENAC RJ</p>
+                <p class="formacao-item__period">Ago/2025 — Out/2026</p>
+                <p class="formacao-item__description">
+                  Aplicação prática de IA e análise de dados em contextos de negócio, 
+                  abordando fundamentos de analytics, uso de dados para tomada de decisão 
+                  e automação de processos.
+                </p>
+              </div>
+            </div>
+
+            <div class="formacao-item formacao-item--current">
+              <div class="formacao-item__marker"></div>
+              <div class="formacao-item__content">
+                <span class="formacao-item__status">Em andamento</span>
+                <h3 class="formacao-item__title">Data Science — Oracle Next Education (ONE)</h3>
+                <p class="formacao-item__institution">Alura Latam</p>
+                <p class="formacao-item__period">Jul/2025 — Jul/2026</p>
+                <p class="formacao-item__description">
+                  Trilhas de formação em Data Science, BI, fundamentos de programação 
+                  e tecnologia, com foco em aplicação prática e construção de base 
+                  técnica para projetos de analytics e IA.
+                </p>
+              </div>
+            </div>
+
+            <div class="formacao-item formacao-item--current">
+              <div class="formacao-item__marker"></div>
+              <div class="formacao-item__content">
+                <span class="formacao-item__status">Em andamento</span>
+                <h3 class="formacao-item__title">AWS re/Start + IA</h3>
+                <p class="formacao-item__institution">Escola da Nuvem</p>
+                <p class="formacao-item__period">Nov/2025 — Mar/2026</p>
+                <p class="formacao-item__description">
+                  Programa prático com foco em fundamentos de cloud computing, AWS, 
+                  arquitetura básica, segurança, custos e uso de IA.
+                </p>
+              </div>
+            </div>
+
+            <div class="formacao-item">
+              <div class="formacao-item__marker"></div>
+              <div class="formacao-item__content">
+                <span class="formacao-item__status formacao-item__status--done">Concluído</span>
+                <h3 class="formacao-item__title">Tecnólogo em Gestão Financeira</h3>
+                <p class="formacao-item__institution">Fundação Getulio Vargas (FGV)</p>
+                <p class="formacao-item__period">Mar/2023 — Mai/2025</p>
+                <p class="formacao-item__description">
+                  Formação focada em gestão financeira, planejamento, análise de custos, 
+                  indicadores e apoio à decisão, servindo como base para atuação em 
+                  analytics, BI e projetos de tecnologia aplicada a negócios.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__info">
+          <p class="footer__name">Fábio Andrade</p>
+          <p class="footer__tagline">Gestão Financeira + Análise de Dados</p>
+        </div>
+
+        <div class="footer__links">
+          <a
+            href="https://www.linkedin.com/in/fabioandradegf/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social"
+            aria-label="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </a>
+          <a
+            href="https://github.com/thedrads"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social"
+            aria-label="GitHub"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="footer__bottom">
+          <p>
+            Desenvolvido por Fábio Andrade • 2025
+          </p>
+          <p class="footer__ai-disclosure">
+            Este portfólio foi desenvolvido com auxílio de IA Generativa como 
+            ferramenta de apoio para código e boas práticas.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const mobileBtn = document.querySelector(".header__mobile-btn");
+        const nav = document.querySelector(".header__nav");
+
+        if (mobileBtn && nav) {
+          mobileBtn.addEventListener("click", () => {
+            const isExpanded = mobileBtn.getAttribute("aria-expanded") === "true";
+            mobileBtn.setAttribute("aria-expanded", !isExpanded);
+            nav.classList.toggle("header__nav--open");
+            mobileBtn.classList.toggle("header__mobile-btn--open");
+          });
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute("href"));
+            if (target) {
+              target.scrollIntoView({ behavior: "smooth", block: "start" });
+              // Close mobile menu if open
+              nav.classList.remove("header__nav--open");
+              mobileBtn.classList.remove("header__mobile-btn--open");
+              mobileBtn.setAttribute("aria-expanded", "false");
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
